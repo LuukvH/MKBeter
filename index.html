@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>MKBeter</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,76 +21,52 @@
         body {
             position: relative;
         }
+        /* centered columns styles */
+        .row-centered {
+            text-align: center;
+        }
+
+        .col-centered {
+            display: inline-block;
+            float: none;
+            /* reset the text-align */
+
+            /* inline-block space fix */
+            margin-right: -4px;
+        }
     </style>
 
 </head>
 <body>
-
-    <nav id="navbar-example2" class="navbar navbar-default navbar-static">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-scrollspy">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Project Name</a>
+    <div class="pagination-centered" style="background-color: white; text-align: center">
+        <div class="container" />
+        <h1 id="diensten">Diensten</h1>
+        <p>Door de expertise van onze specialisten in samenwerking met onze business partners besparen wij voor u op de volgende facilitaire kosten.</p>
+        <div class="row">
+            <div class="col-md-2" style="text-align: center">
+                <img src="images/phone.jpg" class="img-responsive" alt="no image">
+                <h4>Telefonie</h4>
+                <p>MKBeter helpt u bij het besparen op uw telefoonkosten zowel vast als mobiel. Onze specialisten zorgen voor een passend aanbod geheel afgestemd op uw behoeften, wensen en de beschikbare infrastructuur. Uw besparing kan oplopen tot wel 35%.</p>
             </div>
-            <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#fat">@fat</a></li>
-                    <li class=""><a href="#mdo">@mdo</a></li>
-                    <li class="dropdown">
-                        <a href="#" id="navbarDrop1" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDrop1">
-                            <li><a href="#one">one</a></li>
-                            <li class=""><a href="#two">two</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#three">three</a></li>
-                        </ul>
-                    </li>
-                </ul>
+            <div class="col-md-2" style="text-align: center">
+                <img src="images/print.jpg" class="img-responsive" alt="no image">
+                <h4>Printing</h4>
+                <p>MKBeter helpt u besparen op uw print-copier kosten. Door jarenlange ervaring van onze specialis op het inkoop/verkoop contracten kunt u geld besparen zonder een eventuele overstap te hoeven maken. Uw besparing kan oplopen tot wel 50%.</p>
             </div>
-        </div>
-    </nav>
-
-
-    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example">
-        <div style="background-color: yellow">
-            <div class="container" />
-            <h4 id="mdo">@mdo</h4>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="/images/image.jpg" alt="no image">
-                    <p>Plaatje met tekst</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="/images/image.jpg" alt="no image">
-                    <p>Plaatje met tekst</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="/images/image.jpg" alt="no image">
-                    <p>Plaatje met tekst</p>
-                </div>
+            <div class="col-md-2" style="text-align: center">
+                <img src="images/energie.jpg" class="img-responsive" alt="no image">
+                <h4>Energie</h4>
+                <p>MKBeter helpt u besparen op uw energie kosten. Door de jarenlange ervaring van onze specialisten weten we precies wanneer het juiste inkoopmoment is. Daarnaast zorgen wij voor een volledige ontzorging bij onze klangen. De gemiddelde besparing bedraagt 28%.</p>
             </div>
-        </div>
-        <div style="background-color: green">
-            <div class="container" />
-            <h4 id="H1">@mdo</h4>
-            <div class="row">
-                <div class="col-md-4" style="text-align:center">
-                    <img src="/images/image.jpg" alt="no image">
-                    <p>Plaatje met tekst jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="/images/image.jpg" alt="no image">
-                    <p>Plaatje met tekst</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="/images/image.jpg" alt="no image">
-                    <p>Plaatje met tekst</p>
-                </div>
+            <div class="col-md-2" style="text-align: center">
+                <img src="images/porto.jpg" class="img-responsive" alt="no image">
+                <h4>Porto</h4>
+                <p>MKBeter helpt u bij het besparen op portokosten. Jarenlang is deze markt gedomineerd door één aanbieder. Deze markt ligt nu open. Samen met onze business partners kunnen wij u een besparing van 20% garanderen</p>
+            </div>
+            <div class="col-md-2" style="text-align: center">
+                <img src="images/overige.jpg" class="img-responsive" alt="no image">
+                <h4>Overige</h4>
+                <p>MKBeter is continue op zoek naar betere dienstverlening voor haar leden. Zijn er facilitaire kosten waar u nog meer op zou willen besparen, laat het ons weten.</p>
             </div>
         </div>
     </div>
