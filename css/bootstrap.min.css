@@ -1347,7 +1347,6 @@ td, th {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	background-color: #F3E2F4;
 }
 
     *:before, *:after {
@@ -1851,7 +1850,6 @@ pre {
 @media (min-width:992px) {
     .container {
 	width: 970px;
-	background-color: #FBE3FB;
     }
 }
 
