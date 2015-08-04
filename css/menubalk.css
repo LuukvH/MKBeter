@@ -7,6 +7,7 @@
 		border-width: 1px;
 		border-radius: 4px;
 		margin-top: 5em; 
+		margin-bottom: 3em;
 	}
 	.navbar-default .navbar-nav>li>a {
 		color: rgba(255, 255, 255, 1);

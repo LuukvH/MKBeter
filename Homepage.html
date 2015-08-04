@@ -28,7 +28,14 @@
                 border-width: 1px;
                 height: 30em;
             }
-
+			
+			.border-all {
+				padding:1em;
+				margin:1em;
+				border-style: solid;
+                border-width: 1px;
+			}
+			
             .border-sm {
                 border-style: solid;
                 border-width: 1px;
@@ -88,8 +95,14 @@
             </div>
         </nav>
 
+		<div class="border-all">
         <div class="row">
-            <div class="col-md-8">
+			<div class="col-md-2">
+			<div class="kader">
+			<h2>sidebar voordelen</h2>
+			</div>
+			</div>
+            <div class="col-md-7">
                 <!-- Carousel -->
                 <div id="carousel" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
@@ -119,7 +132,7 @@
                 </div>
                 <!-- /carousel -->
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="kader">
                     <h1>Pro Savings Europe V.O.F.</h1>
                     <h2>Het beste voor MKB</h2>
@@ -131,7 +144,8 @@
             </div>
         </div>
 
-        <div class="pagination-centered" style="background-color: white; text-align: center; margin-top:1em">
+		<div class="border-all"> 
+        <div class="pagination-centered" style="background-color: white; text-align: center" >
             <div class="row">
                 <div class="col-md-4">
                     <div class="border-sm">
@@ -153,6 +167,7 @@
                 </div>
             </div>
         </div>
+		</div>
 
         <div class="border-sm" style="margin-top:1em">
             <div class="pagination-centered" style="background-color: white; text-align: center">
@@ -165,6 +180,7 @@
             </div>
         </div>
     </div>
+	</div>
 
     <footer class="footer">
         <p class="text-muted">PSE consult Copyright</p>
