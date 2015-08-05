@@ -1,3 +1,4 @@
+
         @media (min-width: 768px) {
             .kader {
                 border-style: solid;
@@ -6,12 +7,11 @@
             }
 			
 			.border-all {
-	background-color: blue;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	border-style: solid;
-	border-width: 1px;
-	width: 100%;
+			background-color:blue;
+				padding:1em;
+				margin:1em;
+				border-style: solid;
+                border-width: 1px;
 			}
 			
             .border-sm {
@@ -21,12 +21,13 @@
         }
 
         .footer {
-	text-align: center;
-	margin-top: 1em;
-	padding-top: 1em;
-	margin-bottom: 1em;
-	background-color: #f5f5f5;
-	width: auto;
+            position: absolute;
+            text-align: center;
+            margin-top: 1em;
+            padding-top: 1em;
+            margin-bottom: 1em;
+            width: 100%;
+            background-color: #f5f5f5;
         }
 
         /* CUSTOMIZE THE CAROUSEL
@@ -43,9 +44,3 @@
 		#sidebar {
 			background-color:red;
 		}
-
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1600px; /* or 950px */
-}
