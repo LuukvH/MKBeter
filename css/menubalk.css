@@ -2,12 +2,14 @@
 		color: rgba(255, 255, 255, 1);
 	}
 	.navbar-default {
-		font-size: 15px;
-		background-color: rgba(76, 0, 105, 1);
-		border-width: 1px;
-		border-radius: 4px;
-		margin-top: 5em; 
-		margin-bottom: 3em;
+	font-size: 15px;
+	background-color: rgba(76, 0, 105, 1);
+	border-width: 1px;
+	border-radius: 4px;
+	margin-top: 5em;
+	margin-bottom: 3em;
+	-webkit-box-shadow: 0px px;
+	box-shadow: 0px px;
 	}
 	.navbar-default .navbar-nav>li>a {
 		color: rgba(255, 255, 255, 1);
@@ -15,8 +17,8 @@
 	}
 	.navbar-default .navbar-nav>li>a:hover,
 	.navbar-default .navbar-nav>li>a:focus {
-		color: rgba(255, 255, 255, 1);
-		background-color: rgba(17, 255, 215, 1);
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(17, 255, 215, 1);
 	}
 	.navbar-default .navbar-nav>.active>a,
 	.navbar-default .navbar-nav>.active>a:hover,
