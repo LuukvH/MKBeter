@@ -1521,7 +1521,7 @@ h5, .h5 {
 	font-size: 38px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-shadow: 0px 0px 3px rgba(0,0,0,1.00);
-	border: thin outset rgba(105,105,105,0.66);
+	border: medium outset rgba(105,105,105,0.66);
 	border-radius: 10px;
 }
 
@@ -6721,7 +6721,7 @@ button.close {
 	opacity: 1
 	opacity: -0
 	border-color: rgba(255,255,255,1.00);
-	border: medium solid rgba(255,255,255,0.94);
+	border: thick outset rgba(91,91,91,0.41);
 }
 
 .carousel-inner {
@@ -6930,27 +6930,30 @@ button.close {
 	margin-left: 10%;
 	padding: 1px;
 	margin-right: 1em;
-	margin-top: 5px;
-	background-color: rgba(71,71,71,0.87);
+	margin-top: 50px;
+	background-color: rgba(76,0,105,0.82);
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: bolder;
-	border-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
 	bottom: 10px;
-	text-shadow: 0px 0px;
-	font-size: 150px;
+	text-shadow: 0px 0px 8px rgba(0,0,0,1.00);
+	font-size: 42px;
 	color: rgba(255,255,255,1.00);
-	border: thin outset rgba(105,105,105,0.66);
+	border: medium outset rgba(76,0,105,0.47);
     }
 	
 	.carousel-caption-sub {
-	margin-top: 1em;
-	margin-left: 20%;
+	margin-left: 30%;
 	margin-right: 10%;
-	background-color: rgba(71,71,71,0.87);
+	background-color: rgba(145,242,197,0.82);
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	border-radius: 10px;
-	bottom: 30px;
-	text-shadow: 0px 0px #000000;
+	text-shadow: 0px 0px 8px #000000;
+	margin-top: 47px;
+	font-weight: bolder;
+	font-size: 40px;
+	border: medium outset rgba(145,242,197,0.82);
     }
 
     .carousel-caption .btn {
@@ -6974,11 +6977,7 @@ button.close {
     }
 
     .carousel-caption {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: bolder;
-	border-radius: 10px;
 	text-shadow: 0px 0px;
-	font-size: 150px;
     }
 
     .carousel-indicators {
