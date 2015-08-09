@@ -1496,6 +1496,7 @@ h1, .h1 {
 	font-size: x-large;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: rgba(76, 0, 105, 1);
+	text-decoration: underline;
 }
 
 h2, .h2 {
@@ -6727,7 +6728,6 @@ button.close {
 .carousel-inner {
 	overflow: hidden;
 	width: 100%;
-	border-radius: 11px;
 	}
 
     .carousel-inner > .item {
