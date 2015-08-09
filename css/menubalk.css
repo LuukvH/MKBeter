@@ -2,10 +2,11 @@
 		color: rgba(255, 255, 255, 1);
 	}
 	.navbar-default {
-		font-size: 20px;
-		background-color: rgba(255,255,255,1.00);
-		margin-top: 3em;
-		margin-bottom: 1em;
+	font-size: 20px;
+	background-color: rgba(255,255,255,1.00);
+	margin-top: 3em;
+	margin-bottom: 1em;
+	font-weight: bolder;
 	}
 	
 	.navbar-default .navbar-nav>li>a {
