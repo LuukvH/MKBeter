@@ -25,22 +25,78 @@
 
 
 <body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#PSEnavbar" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand pull-left" href="file:///C:/Users/Floor%20en%20Tim/Documents/GitHub/PSE Consult/oefenen/PSE%20navbar">
+				<!--
+				<a class="navbar-brand pull-left" href="">
 					<img style="height: 100px; margin-left: 130px; margin-top: -25px;" img="" src="images/brand-01.jpg" class="img-responsive" alt="img-responsive">
-				</a>
+				</a>-->
 			</div>
 			<!-- navbar-header -->
-			<div class="collapse navbar-collapse pull-right" id="PSE navbar">
-				<ul class="nav navbar-nav">
+			<div class="collapse navbar-collapse pull-right" id="PSEnavbar">
+				<ul class="nav navbar-nav navbar-right">
 					<li role="presentation" class="active"><a href="./index.html">Home</a></li>
 					<li role="presentation"><a href="./Organisatie.html">Organisatie</a></li>
 					<li role="presentation"><a href="./Diensten.html">Diensten</a></li>
@@ -53,16 +109,13 @@
 	</nav>
 
 		<div class="background-grad" style="width: 100%; padding-top: 4em; padding-bottom: 2em;">
-		<div class="row" style="margin-left: 6em; margin-right: 3em">
-					<div class="col-md-5">
-				<div class="well well-lg" style="height: 30em; margin-left: 3em; border-radius: 2px">
-					<h3 style="color:white"><b>Uw besparing, Onze zorg</b><h3>
-					<p style="color:white">
-					Samen inkopen maakt sterk. Ondernemend Nederland wil niet meer betalen voor
-consult uren zonder enig resultaat, daarom kijken wij volledig onafhankelijk op basis 
-van No Cure - No Pay of ook u substantieel kan besparen op uw huidige contracten. 
-					</p>
-				</div>
+		<div class="container" />
+		<div class="row">
+			<div class="col-md-5">
+				<h3 style="color:white"><b>Uw besparing, Onze zorg</b><h3>
+				<p style="color:white">
+				Samen inkopen maakt sterk. Ondernemend Nederland wil niet meer betalen voor consult uren zonder enig resultaat, daarom kijken wij volledig onafhankelijk op basis van No Cure - No Pay of ook u substantieel kan besparen op uw huidige contracten. 
+				</p>
 			</div>
 			<div class="col-md-7">
 				<!-- Carousel -->
@@ -118,15 +171,14 @@ van No Cure - No Pay of ook u substantieel kan besparen op uw huidige contracten
 				</div>
 				<!-- /carousel -->
 			</div>
-
 		</div>
 	</div>
-	
-		<div class="container">
+	</div>
+	<div class="container" />
 		<h4 style="text-align: center; margin-top: 1em; color: rgba(54,54,54,1.00);">Wilt u ook besparen op uw huidig lopende contacten? Wij kijken graag voor u op welke contracten u substantieel kan besparen.</h4>
 			<hr>
-			<div class="row" style="margin-top: 2em; opacity: 1;">
-				<div class="col-md-4" >
+			<div class="row" style="margin-top: 2em;">
+				<div class="col-md-4">
 					<div style="margin-left:3em; margin-right:3em; text-align:center">
 						<span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="font-size:200%;display:block;text-align:center"></span>
 						<h4 style="text-align: center; color: rgba(54,54,54,1.00);">Gratis scan</h4>
