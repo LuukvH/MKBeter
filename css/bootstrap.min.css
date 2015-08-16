@@ -284,8 +284,7 @@ td, th {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: rgba(26,255,0,1.00);
-}
+	}
 
 .glyphicon-asterisk:before {
     content: "\2a";
